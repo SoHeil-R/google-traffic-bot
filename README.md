@@ -2,6 +2,7 @@
 # Google Traffic Bot
 
 Google Traffic Bot is a simple JavaScript tool designed to improve Google SEO by simulating organic traffic. Built with Electron for a user-friendly interface and Selenium for web automation.
+
 ## Features
 
 - **Automated Traffic Simulation:** Generate traffic to any website by simulating multiple visitors.
@@ -11,6 +12,7 @@ Google Traffic Bot is a simple JavaScript tool designed to improve Google SEO by
 - **Proxy Support:** Rotate through proxy servers to simulate traffic from different  locations.
 
 - **Stealth Capabilities:** Include stealth settings to mimic human-like browsing and avoid bot detection mechanisms.
+
 ## Tech Stack
 
 - **JavaScript:** Core scripting language for traffic simulation.
