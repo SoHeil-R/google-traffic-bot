@@ -1,5 +1,5 @@
 
-# Google Traffic Bot
+# Google Traffic Bot ![](https://img.shields.io/badge/language-js-yellow)
 
 Google Traffic Bot is a simple JavaScript tool designed to improve Google SEO by simulating organic traffic. Built with Electron for a user-friendly interface and Selenium for web automation.
 
