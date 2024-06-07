@@ -1,7 +1,8 @@
 
-# Google Traffic Bot ![](https://img.shields.io/badge/language-js-yellow)
+# Google Traffic Bot
 
 Google Traffic Bot is a simple JavaScript tool designed to improve Google SEO by simulating organic traffic. Built with Electron for a user-friendly interface and Selenium for web automation.
+
 
 ## Features
 
@@ -12,6 +13,7 @@ Google Traffic Bot is a simple JavaScript tool designed to improve Google SEO by
 - **Proxy Support:** Rotate through proxy servers to simulate traffic from different  locations.
 
 - **Stealth Capabilities:** Include stealth settings to mimic human-like browsing and avoid bot detection mechanisms.
+
 
 ## Tech Stack
 
@@ -31,13 +33,13 @@ Google Traffic Bot is a simple JavaScript tool designed to improve Google SEO by
 Clone the project
 
 ```bash
-  git clone https://
+  git clone https://github.com/SoHeil-R/google-traffic-bot.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd google-traffic-bot
 ```
 
 Install dependencies
@@ -52,9 +54,12 @@ Start
   npm run start
 ```
 
+
 ## Disclaimer
 
 **Google Traffic Bot** is provided for educational purposes only.
+
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)

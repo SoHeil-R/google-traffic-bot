@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Google SEO Bot</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body style="background-color: #0F1014;">
+    <div style="display: flex; justify-content: center; align-items: center; height: 500px; margin-top: 25px;">
+        <div style="width: 350px; background-color: rgb(182, 182, 182); border-radius: 10px;">
+            <div style="display: flex; flex-direction: column; justify-content: center; height: 100%; padding: 15px 25px 25px 25px;">
+                <h4 style="text-align: center;font-weight: 800;margin-bottom: 20px;">GOOGLE SEO BOT</h4>
+                <div>
+                    <div class="alert" role="alert" id="alert" style="display: none;"></div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">URL</span>
+                        <input type="text" id="url" class="form-control" placeholder="https://example.com" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="input-group mb-3" id="keyboard">
+                        <span class="input-group-text" id="basic-addon1">KEYBOARD</span>
+                        <input type="text" id="keyboard-i" class="form-control" placeholder="example" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">COUNT</span>
+                        <input type="text" id="count" class="form-control" placeholder="0" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">TOTAL PROXY</span>
+                        <input type="text" id="proxys" class="form-control" placeholder="1000" aria-label="Username" aria-describedby="basic-addon1" disabled>
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <label class="input-group-text" for="inputGroupSelect01">Options</label>
+                        </div>
+                        <select id="option" class="custom-select" id="inputGroupSelect01" style="width: 219px; border-radius: 0px 5px 5px px;">
+                          <option value="Direct">Direct</option>
+                          <option value="Google">Google Search</option>
+                          <option value="Proxy">Proxy Server</option>
+                        </select>
+                    </div>
+                </div>
+                <div style="display: flex; justify-content: center; column-gap: 10px; margin-top: 10px;">
+                    <button type="button" class="btn btn-primary" style="width: 100%;" id="start">Start</button>
+                    <button type="button" class="btn btn-danger" style="width: 100%;" id="stop">Stop</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./renderer.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
