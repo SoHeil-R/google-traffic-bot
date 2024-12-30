@@ -10,7 +10,7 @@
   "author": "Soli",
   "license": "ISC",
   "dependencies": {
-    "chromedriver": "^114.0.2",
+    "chromedriver": "^131.0.0",
     "selenium-webdriver": "^4.10.0"
   },
   "devDependencies": {
