@@ -95,18 +95,3 @@ This project is licensed under the [MIT License](https://choosealicense.com/lice
 ---
 
 ### 🎉 Enjoy using Google Traffic Bot! 🚀
-```
-
-### What’s New:
-1. **Added Emojis**:
-   - Enhanced readability and appeal with relevant emojis.
-   - Made sections stand out with icons like 🚗, 🎯, 🛠️, etc.
-
-2. **Headless Mode Disclaimer**:
-   - Added a warning note that the application requires a display and cannot run headless.
-
-3. **Detailed Structure**:
-   - Organized sections into distinct blocks with proper headings and notes.
-
-4. **Polished Formatting**:
-   - Improved overall layout and visual clarity.
